@@ -135,7 +135,7 @@ margin-bottom: 50px;
       .nav-links li .c{top: 210px;}	
 .nav-links li ul li:hover ul{  visibility: visible;}
     #check:checked ~ ul{
-      height: 40vh;
+      height: 42vh;
       position: static;
       left: 0;}
 }
@@ -197,6 +197,9 @@ margin-bottom: 50px;
 
 }
 @media screen and (max-width:470px){
+  #check:checked ~ ul{
+    height: 44vh;}
+  
   .gallery {
     flex-wrap: wrap;
     height: 1500px;
