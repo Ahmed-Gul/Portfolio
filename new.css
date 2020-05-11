@@ -7,7 +7,7 @@ body{
     background-color: rgb(208, 208, 208);
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
-    /* background: royalblue; */
+    background: lightcoral;
 }
 a{
     cursor: pointer;
@@ -35,7 +35,7 @@ a{
 .main-bio{
     width: 35%;
     margin-right:70px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 .bio{
    
