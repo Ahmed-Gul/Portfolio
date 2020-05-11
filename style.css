@@ -1,0 +1,159 @@
+/* index.html CSS */
+body{
+    background-color: rgb(239,239,239);
+}
+.image{
+    text-align: center;
+}
+
+#mhead{
+    color: rgb(107, 90, 205);
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    background-color: rgb(107, 90, 205);
+    color: white;
+    width: 1000px;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+form{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+.f1{
+    /* labels */
+    float: left;
+  width: 170px; 
+  padding-bottom: 0px;
+  height: 21px;
+  margin-top: 3px;
+}
+.tb{
+    /* boxes */
+    width: 166px;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+
+/* checkbox and radio button */
+.courbox{
+    width: 14px; 
+    height: 14px;
+    vertical-align: -1px;
+    margin-right: 15px;
+    margin-left: 4px;   
+}
+.ckbox{
+    vertical-align: -3px;
+        width: 17px; 
+        height: 17px; 
+        margin-bottom: 5px;
+}
+#gend{
+    width: 14px; 
+    height: 14px;
+vertical-align: -2px;
+margin-left: 2px;
+}
+.add {
+    vertical-align: top;
+}
+/*  ******************  */
+
+/* unique ids :gender,dob,address,drawing,BCA,others */
+#uniq{
+    margin-left: 20px;
+}
+
+/* table */
+.thead{
+    padding: 0px;
+    padding-right: 64px;
+    margin: 0px;
+}
+th{
+    padding-bottom: 2px;
+    font-weight: lighter;
+    padding-right: 10px;
+}
+.tbox{
+    width: 160px;
+    margin-bottom: 2px;
+    border-radius: 3px;
+    margin-right: 3px;
+}
+td{
+    vertical-align: bottom;
+}
+
+/* table ends */
+
+/* buttons */
+.but{
+     text-align: center; 
+}
+.butp{
+    font-weight: bold;
+    padding:5px;
+    width: 65px;
+    border:none;
+    border-radius: 5px; 
+    cursor: pointer;   
+}
+
+/* footer */
+footer{
+    background-color: black;
+font-family: Arial, Helvetica, sans-serif;
+text-transform: uppercase;
+font-weight: bold;
+    /* width: 68%; */
+    width: 1000px;
+    border: 1px solid black;
+    bottom: 0px;
+    min-height: 60px;
+    display: flex;
+    color: white;
+justify-content: center;
+    margin: 0px auto;
+}
+/* *************************************************************************** */
+
+/* msg.html CSS */
+.msg-main *{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.head{
+    margin-top: 100px;
+}
+#imgm{
+    height: 300px;
+    width: 280px;
+}
+
+#msgh2{
+    color: green;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+#msgh3{
+    color: rgb(147, 7, 247);
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.goback{
+    font-size: larger;
+    color: rgb(51, 8, 82) ;
+}
+
